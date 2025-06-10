@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/phonolab',
+  assetPrefix: '/phonolab/',
   eslint: {
     ignoreDuringBuilds: true,
   },
